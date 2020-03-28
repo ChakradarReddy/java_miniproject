@@ -13,6 +13,4 @@ overlap.
 Hence, for animation, each actor computes its next position (given a timestep and its destination
 position). If this new position will not collide with any other object, it moves to that position. If
 not, it computes a different (non-colliding) position and moves there. If no such position exists, it
-stays in its current position until it can move. You are free to implement any collision avoidance
-scheme, so long as the actor moves towards the target destination. Note that the destination
-location of the actor can be changed anytime (by main, for instance).
+stays in its current position until it can move. 
